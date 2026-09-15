@@ -1,8 +1,8 @@
 const A = {
-  logo: 'assets/bitco-logo-transparent.png',
-  team: 'assets/team-collaboration.jpg',
-  dashboard: 'assets/dashboard.jpg',
-  award: 'assets/award.jpg'
+  logo: '/bitco-logo-transparent.png',
+  team: '/team-collaboration.jpg',
+  dashboard: '/dashboard.jpg',
+  award: '/award.jpg'
 };
 const CONTACT = { whatsapp: '201000000000', phone: '+20 100 000 0000', facebook: 'https://www.facebook.com/' };
 let lang = localStorage.getItem('bitco-lang') || 'en';
